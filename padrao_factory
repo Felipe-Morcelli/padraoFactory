@@ -1,0 +1,4 @@
+# Uso do factory
+dados_email = {"destinatario": "exemplo@dominio.com", "assunto": "Olá", "mensagem": "Esta é uma mensagem de teste."}
+notificacao = NotificacaoFactory.criarNotificacao("email", dados_email)
+notificacao.enviar()
